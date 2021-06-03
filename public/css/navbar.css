@@ -1,0 +1,30 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  background-color: #ffc477 !important;
+}
+
+.search-btn {
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+  margin: auto;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.search-bar {
+  border-radius: 2rem;
+}
+.login-btn {
+  border: 1px solid black;
+  border-radius: 2rem;
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  transition: 0.5s;
+}
+
+.login-btn:hover {
+  background-color: rgba(52, 52, 52, 1);
+  color: #ffc477 !important;
+}

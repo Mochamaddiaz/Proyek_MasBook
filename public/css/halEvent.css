@@ -1,0 +1,86 @@
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: ">>";
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+}
+
+.img {
+  background-image: url("/css/img/bg.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  height: 550px;
+}
+
+.box-content {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 30px;
+  background-color: #046c8b;
+  color: white;
+  border-radius: 1rem;
+  height: 550px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-img-top {
+  border-radius: 1rem 1rem 0 0;
+}
+
+.far,
+.fas {
+  margin-right: 5px;
+}
+
+.joinEvent-btn,
+.join-btn {
+  margin-top: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #046c8b;
+  text-decoration: none;
+  border-radius: 2rem;
+  border: 1px solid white;
+  transition: 0.5s;
+}
+
+.joinEvent-btn:hover,
+.join-btn:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group input {
+  border-radius: 2rem;
+  outline: none;
+  border: none;
+}
+
+select {
+  margin-left: 10px;
+  border-radius: 2rem;
+}
+
+#daftar {
+  display: none;
+}

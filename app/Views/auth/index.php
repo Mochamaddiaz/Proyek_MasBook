@@ -28,7 +28,7 @@
         </div>
     </div>
 </div>
-<div class="forget" id="forget">
+<!-- <div class="forget" id="forget">
     <form action="" class="forget-content animate col-lg-6">
         <div class="close">
             <span onclick="document.getElementById('forget').style.display='none'" class="close-btn" title="Close Modal">&times;</span>
@@ -43,7 +43,7 @@
         </div>
         <button type="submit" class="col-md-4 mt-1 btn send-btn">Send Instructions</button>
     </form>
-</div>
+</div> -->
 
 <script>
     var forget = document.getElementById('forget');
