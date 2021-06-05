@@ -1,12 +1,12 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid container">
-        <a class="navbar-brand" href="<?= base_url('/'); ?>">STEVEN</a>
+        <a class="navbar-brand" href="<?= base_url('/'); ?>"><img src="<?= base_url(); ?>/css/img/stevenlogo2.png" alt="" class="logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-            <form class="d-flex col-md-9">
+            <form class="d-flex col-md-8">
                 <a class="fas fa-search search-btn"></a>
                 <input class="form-control ml-2 me-2 search-bar" type="search" placeholder="Search" aria-label="Search">
                 <!-- <button class="btn btn-outline-success search-btn" type="submit">Search</button> -->
@@ -14,10 +14,10 @@
 
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#">How To</a>
+                    <a class="nav-link " aria-current="page" href="#">CARA PAKAI</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#">Create Event</a>
+                    <a class="nav-link " aria-current="page" href="#">BUAT EVENT</a>
                 </li>
 
                 <?php if (session('nama')) : ?>
@@ -38,7 +38,7 @@
 
                 <?php if (!session('nama')) : ?>
                     <li class="nav-item">
-                        <a class="nav-link active login-btn px-3 py-2" aria-current="page" href="<?= base_url('/index.php/login'); ?>">Login</a>
+                        <a class="nav-link active login-btn px-3 py-2" aria-current="page" href="<?= base_url('/index.php/login'); ?>">LOG IN</a>
                     </li>
                 <?php endif; ?>
 

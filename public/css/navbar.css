@@ -1,30 +1,47 @@
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #fffcf8;
+  color: #34809a;
 }
 .navbar {
-  background-color: #ffc477 !important;
+  background-color: #34809a !important;
+}
+
+.navbar .nav-item .nav-link {
+  border-radius: 5px;
+  background-color: white;
+  color: #34809a;
+  margin-right: 10px;
+}
+
+.navbar.nav-item.nav-link:hover {
+  background-color: rgba(0, 0, 0, 0) !important;
 }
 
 .search-btn {
   font-size: 24px;
   text-decoration: none;
-  color: black;
+  color: white !important;
   margin: auto;
   margin-right: 10px;
   margin-left: 10px;
 }
 .search-bar {
-  border-radius: 2rem;
+  border-radius: 5px;
 }
-.login-btn {
-  border: 1px solid black;
-  border-radius: 2rem;
-  background-color: rgba(0, 0, 0, 0);
-  color: black;
+.navbar .nav-item .login-btn {
+  border: none;
+  border-radius: 5px;
+  background-color: #fe8163;
+  color: white !important;
   transition: 0.5s;
 }
 
 .login-btn:hover {
   background-color: rgba(52, 52, 52, 1);
   color: #ffc477 !important;
+}
+
+.logo {
+  width: 100px;
 }

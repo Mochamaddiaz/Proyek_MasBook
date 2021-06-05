@@ -8,15 +8,15 @@ ul.breadcrumb li {
 }
 ul.breadcrumb li + li:before {
   padding: 8px;
-  color: black;
+  color: #fe8163;
   content: ">>";
 }
 ul.breadcrumb li a {
-  color: #0275d8;
+  color: #fe8163;
   text-decoration: none;
 }
 ul.breadcrumb li a:hover {
-  color: #01447e;
+  color: #fac583;
 }
 
 .img {
@@ -27,15 +27,22 @@ ul.breadcrumb li a:hover {
 }
 
 .box-content {
+  border: 2px solid #34809a;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 30px;
-  background-color: #046c8b;
-  color: white;
+  background-color: white;
+  color: #343434;
   border-radius: 1rem;
-  height: 550px;
+  height: 554px;
 }
 
 .card-title {
+  font-weight: bold;
+  color: #34809a;
+}
+
+h6 {
+  color: #fe8163;
   font-weight: bold;
 }
 
@@ -43,9 +50,9 @@ ul.breadcrumb li a:hover {
   border-radius: 1rem 1rem 0 0;
 }
 
-.far,
-.fas {
+.ikon {
   margin-right: 5px;
+  color: #fe8163;
 }
 
 .joinEvent-btn,
@@ -55,7 +62,7 @@ ul.breadcrumb li a:hover {
   color: white;
   background-color: #046c8b;
   text-decoration: none;
-  border-radius: 2rem;
+  border-radius: 5px;
   border: 1px solid white;
   transition: 0.5s;
 }
@@ -71,16 +78,22 @@ ul.breadcrumb li a:hover {
 }
 
 .form-group input {
-  border-radius: 2rem;
+  border: 2px solid #34809a !important;
+  border-radius: 5px;
   outline: none;
   border: none;
 }
 
 select {
+  border: 1px solid #34809a;
   margin-left: 10px;
-  border-radius: 2rem;
+  border-radius: 5px;
 }
 
 #daftar {
   display: none;
+}
+
+hr {
+  color: #34809a;
 }

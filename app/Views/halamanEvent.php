@@ -19,12 +19,12 @@
                 <div class="card-body" id="info">
                     <h5 class="card-title">Event Name</h5>
 
-                    <p class="card-text"><i class="fas fa-house-user"></i>Pelaksana : </p>
-                    <p class="card-text"><i class="far fa-grin-alt"></i>Peserta : </p>
-                    <p class="card-text"><i class="far fa-calendar-check"></i>Hari / Tanggal : </p>
-                    <p class="card-text"><i class="far fa-clock"></i>Waktu : </p>
-                    <p class="card-text"><i class="fas fa-map-marker-alt"></i>Tempat : </p>
-                    <p class="card-text"><i class="fas fa-phone-alt"></i>Narahubung : </p>
+                    <p class="card-text"><i class="fas fa-house-user ikon"></i>Pelaksana : </p>
+                    <p class="card-text"><i class="far fa-grin-alt ikon"></i>Peserta : </p>
+                    <p class="card-text"><i class="far fa-calendar-check ikon"></i>Hari / Tanggal : </p>
+                    <p class="card-text"><i class="far fa-clock ikon"></i>Waktu : </p>
+                    <p class="card-text"><i class="fas fa-map-marker-alt ikon"></i>Tempat : </p>
+                    <p class="card-text"><i class="fas fa-phone-alt ikon"></i>Narahubung : </p>
                     <p class="card-text">
                     <h6>Deskripsi : </h6> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit nemo doloribus esse consequatur suscipit a odio quidem. Adipisci mollitia beatae quis dolorum veritatis dolor minus ad, perferendis inventore quaerat debitis?</p>
                     <button type="button" class="joinEvent-btn p-2 mt-2" onclick="daftar()">Daftar Sekarang!</button>
