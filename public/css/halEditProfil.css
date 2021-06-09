@@ -1,0 +1,83 @@
+.edit-content {
+  color: #343434;
+}
+
+hr {
+  background-color: #fac583;
+  border: 2px solid #fac583;
+}
+
+.edit-box {
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  border-radius: 15px;
+  border: 2px solid #34809a;
+}
+
+label {
+  text-align: left;
+  font-weight: bold;
+  color: #7d7d7d;
+}
+
+input[type="email"] {
+  color: #fe8163;
+  border: none;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  border: 1px solid #34809a;
+  border-radius: 5px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.simpan-btn {
+  float: right;
+  color: white;
+  border: 1px solid #fe8163;
+  background-color: #fe8163;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.simpan-btn:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: #fe8163;
+}
+
+.ubah-btn {
+  float: right;
+  border: none;
+  color: #fe8163;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.ubah-btn:hover {
+  color: #fac583;
+}
+
+.nosearch {
+  margin: auto;
+  width: 125px;
+}
+
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+footer .row {
+  display: flex;
+  bottom: 0;
+}
+
+footer .row hr {
+  background-color: #fe8163;
+  border: 2px solid #fe8163;
+  width: 45%;
+}

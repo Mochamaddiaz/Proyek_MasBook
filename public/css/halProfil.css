@@ -1,0 +1,58 @@
+.profil-content {
+  color: #fe8163;
+}
+
+hr {
+  background-color: #fac583;
+  border: 2px solid #fac583;
+}
+
+.profil-box {
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  border-radius: 15px;
+  border: 2px solid #34809a;
+}
+
+.ikon-user {
+  color: #34809a;
+  font-size: 80px;
+}
+
+.profil-box .col {
+  color: #343434;
+}
+
+p {
+  display: flex;
+  align-items: center;
+}
+
+.ikon {
+  color: #34809a;
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+.nosearch {
+  margin: auto;
+  width: 125px;
+}
+
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+footer .row {
+  display: flex;
+  bottom: 0;
+}
+
+footer .row hr {
+  background-color: #fe8163;
+  border: 2px solid #fe8163;
+  width: 45%;
+}

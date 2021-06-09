@@ -1,0 +1,85 @@
+.level-content {
+  color: #fe8163;
+}
+
+.level-box {
+  margin: auto;
+}
+hr {
+  background-color: #fac583;
+  border: 2px solid #fac583;
+}
+small {
+  color: #7d7d7d;
+}
+
+label {
+  color: #34809a;
+  font-weight: bold;
+}
+
+.level-box hr {
+  background-color: #34809a;
+  border: 2px solid #34809a;
+}
+
+#nama {
+  border: 1px solid rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#nama:focus {
+  outline: none;
+  border: 1px solid #34809a;
+  border-radius: 5px;
+}
+
+#alasan {
+  border: 1px solid #34809a;
+  border-radius: 10px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+  height: 200px;
+}
+
+#alasan:focus {
+  outline: none;
+  border: 1px solid #34809a;
+  border-radius: 10px;
+}
+
+.sticket-btn {
+  float: right;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid #fe8163;
+  background-color: #fe8163;
+  color: white;
+  transition: 0.5s;
+}
+
+.sticket-btn:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: #fe8163;
+}
+
+.nosearch {
+  margin: auto;
+  width: 125px;
+}
+
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+footer .row {
+  display: flex;
+  bottom: 0;
+}
+
+footer .row hr {
+  background-color: #fe8163;
+  border: 2px solid #fe8163;
+  width: 45%;
+}

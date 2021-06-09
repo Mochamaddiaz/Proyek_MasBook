@@ -23,4 +23,13 @@ class Home extends BaseController
 		];
 		return view('halamanEvent', $data);
 	}
+
+	public function tes()
+	{
+		$data = [
+			'title' => 'tes',
+			'css' => 'halRiwayatEvent.css'
+		];
+		return view('halamanRiwayatEvent', $data);
+	}
 }

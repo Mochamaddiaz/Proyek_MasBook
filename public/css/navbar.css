@@ -7,15 +7,18 @@ body {
   background-color: #34809a !important;
 }
 
-.navbar .nav-item .nav-link {
+.navbar .navbar-nav .nav-item .nav-link {
   border-radius: 5px;
   background-color: white;
   color: #34809a;
   margin-right: 10px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
 }
 
-.navbar.nav-item.nav-link:hover {
-  background-color: rgba(0, 0, 0, 0) !important;
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: #fffcf8;
 }
 
 .search-btn {
@@ -29,7 +32,7 @@ body {
 .search-bar {
   border-radius: 5px;
 }
-.navbar .nav-item .login-btn {
+.navbar .navbar-nav .nav-item .login-btn {
   border: none;
   border-radius: 5px;
   background-color: #fe8163;
@@ -37,11 +40,32 @@ body {
   transition: 0.5s;
 }
 
-.login-btn:hover {
-  background-color: rgba(52, 52, 52, 1);
-  color: #ffc477 !important;
+.navbar .navbar-nav .nav-item .login-btn:hover {
+  background-color: white;
+  color: #fe8163 !important;
 }
 
 .logo {
   width: 100px;
+}
+
+.buatevent-btn {
+  color: white !important;
+  background-color: #ffc477 !important;
+}
+
+.navbar .navbar-nav .dropdown .nav-link {
+  color: white;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.navbar .navbar-nav .dropdown .dropdown-menu .dropdown-item {
+  color: #fe8163;
+}
+
+.akun {
+  margin: auto;
+  font-size: 24px;
+  color: white !important;
 }

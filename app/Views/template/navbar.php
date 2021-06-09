@@ -23,14 +23,37 @@
                 <?php if (session('nama')) : ?>
 
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Sticket</a>
+                        <div class="nav-link active" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#beliTiket">
+                            STICKET
+                        </div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="beliTiket" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-body row">
+                                        <div>Mohon Maaf fitur beli tidak bisa digunakan karena kelompok kami berfokus pada stakeholder pelaksana even dan admin</div>
+                                    </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                 <?php endif; ?>
 
                 <?php if (session('nama')) : ?>
                     <?php if (in_groups('pelaksana')) : ?>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Event Anda</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="menuEvent" role="button" data-bs-toggle="dropdown" aria-expanded="false">EVENT ANDA</a>
+
+                            <ul class="dropdown-menu" aria-labelledby="menuEvent">
+                                <li><a class="dropdown-item" href="<?= base_url('/event/eventAktif'); ?>">Event Aktif</a></li>
+
+                                <li><a class="dropdown-item" href="<?= base_url('/event/pengajuanEvent'); ?>">Pengajuan Event</a></li>
+
+                                <li><a class="dropdown-item" href="<?= base_url('/event/riwayatEvent'); ?>">Riwayat Event</a></li>
+
+                            </ul>
                         </li>
                     <?php endif; ?>
                 <?php endif; ?>
@@ -59,7 +82,7 @@
                             <li>
                                 <a class="dropdown-item" href="<?= base_url('logout'); ?>" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Logout
+                                    Log Out
                                 </a>
                             </li>
                         </ul>

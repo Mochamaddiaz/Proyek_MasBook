@@ -34,6 +34,7 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->get('/event', 'Home::event');
 $routes->get('/auth', 'Auth::index');
+$routes->get('/tes', 'Home::tes');
 
 /*
  * --------------------------------------------------------------------
